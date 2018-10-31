@@ -148,7 +148,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace,monospace;
+  font-family: "PingHei","PingFang SC","Helvetica Neue","Work Sans","Hiragino Sans GB","Microsoft YaHei","SimSun",sans-serif;
   font-size: 1em;
 }
 
