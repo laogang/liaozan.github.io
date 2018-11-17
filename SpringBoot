@@ -17,16 +17,20 @@
   <meta http-equiv="window-target" content="_top">
   
   
-  <title>Code</title>
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Code">
-<meta property="og:url" content="https://liaozan.github.io/index.html">
+  <title>SpringBoot 启动分析 | Code</title>
+  <meta name="description" content="SpringBoot已经成为最流行的Java开发框架,同时也是SpringCloud微服务的基石,今天就来看看SpringBoot是如何启动的吧!程序启动运行main方法直接调用静态方法启动SpringBoot，传入当前类为参数，作为primaryClass123456789101112131415@RestControllerspringboot@SpringBootApplicationpub">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SpringBoot 启动分析">
+<meta property="og:url" content="https://liaozan.github.io/SpringBoot">
 <meta property="og:site_name" content="Code">
+<meta property="og:description" content="SpringBoot已经成为最流行的Java开发框架,同时也是SpringCloud微服务的基石,今天就来看看SpringBoot是如何启动的吧!程序启动运行main方法直接调用静态方法启动SpringBoot，传入当前类为参数，作为primaryClass123456789101112131415@RestControllerspringboot@SpringBootApplicationpub">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-11-17T17:34:25.616Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Code">
+<meta name="twitter:title" content="SpringBoot 启动分析">
+<meta name="twitter:description" content="SpringBoot已经成为最流行的Java开发框架,同时也是SpringCloud微服务的基石,今天就来看看SpringBoot是如何启动的吧!程序启动运行main方法直接调用静态方法启动SpringBoot，传入当前类为参数，作为primaryClass123456789101112131415@RestControllerspringboot@SpringBootApplicationpub">
   <!-- Canonical links -->
-  <link rel="canonical" href="https://liaozan.github.io/index.html">
+  <link rel="canonical" href="https://liaozan.github.io/SpringBoot">
   
     <link rel="alternate" href="/atom.xml" title="Code" type="application/atom+xml">
   
@@ -255,18 +259,17 @@
 </aside>
 
   
-  <main class="main" role="main">
   
-  
-    <div class="content">
+<main class="main" role="main">
+  <div class="content">
   <article id="post-SpringBoot" class="article article-type-post" itemscope="" itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/SpringBoot">SpringBoot 启动分析</a>
+    <h1 class="article-title" itemprop="name">
+      SpringBoot 启动分析
     </h1>
   
 
@@ -396,11 +399,32 @@
     </div>
   </article>
   
-</div>
+    
+  <section id="comments">
+  	
+      <div id="vcomments"></div>
+    
+  </section>
+
 
   
+</div>
 
-   
+  <nav class="bar bar-footer clearfix" data-stick-bottom="">
+  <div class="bar-inner">
+  
+  
+  
+  <div class="bar-right">
+    
+    <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter" data-mobile-sites="weibo,qq,qzone"></div>
+    
+  </div>
+  </div>
+</nav>
+  
+
+
 </main>
 
   <footer class="footer" itemscope="" itemtype="http://schema.org/WPFooter">
@@ -467,6 +491,33 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
    
 
 
+
+
+   
+    
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/valine"></script>
+  <script type="text/javascript">
+  var GUEST = ['nick', 'mail', 'link'];
+  var meta = 'nick,mail,link';
+  meta = meta.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#vcomments',
+    verify: false,
+    notify: false,
+    appId: '',
+    appKey: '',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: meta,
+    pageSize: '10' || 10,
+    visitor: false
+  });
+  </script>
+
+     
 
 
 
